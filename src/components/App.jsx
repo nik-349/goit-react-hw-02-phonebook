@@ -26,9 +26,8 @@ export class App extends Component {
     return hasAlready
       ? alert(`${name} is already in contacts`)
       : this.submitFormHandler({ name, number });
-
   };
-
+  //wewrrewerrewwerrew
   submitFormHandler = ({ name, number }) => {
     const contact = {
       id: nanoid(),
