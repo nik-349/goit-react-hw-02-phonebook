@@ -27,14 +27,6 @@ export class App extends Component {
       ? alert(`${name} is already in contacts`)
       : this.submitFormHandler({ name, number });
 
-    // const hasAlready = contacts
-    //   .filter(cont => cont.name === name.toLowerCase())
-    //   .map(e => e.name)
-    //   .includes(name.toLowerCase());
-    // console.log(hasAlready);
-    // return hasAlready
-    //   ? alert(`${name} is already in contacts`)
-    //   : this.submitFormHandler({ name, number });
   };
 
   submitFormHandler = ({ name, number }) => {
